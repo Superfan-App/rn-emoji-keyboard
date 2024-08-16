@@ -1,4 +1,5 @@
 export const CATEGORIES_NAVIGATION = [
+  { icon: 'Clock', category: 'recently_used' },
   { icon: 'Smile', category: 'smileys_emotion' },
   { icon: 'Users', category: 'people_body' },
   { icon: 'Trees', category: 'animals_nature' },
@@ -8,7 +9,6 @@ export const CATEGORIES_NAVIGATION = [
   { icon: 'Lightbulb', category: 'objects' },
   { icon: 'Ban', category: 'symbols' },
   { icon: 'Flag', category: 'flags' },
-  { icon: 'Clock', category: 'recently_used' },
   { icon: 'Search', category: 'search' },
 ] as const
 
